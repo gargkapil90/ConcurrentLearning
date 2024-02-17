@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4d61545-8cd8-4aec-975a-2141e6d88f20" name="Changes" comment="adding thread concepts">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+    <list default="true" id="c4d61545-8cd8-4aec-975a-2141e6d88f20" name="Changes" comment="adding synchronization">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_15-02-2024_17_29__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ConcurrencyAndParallelism/PrintNumbers/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ConcurrencyAndParallelism/PrintNumbers/Client.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +31,9 @@
   &quot;associatedIndex&quot;: 0
 }</component>
   <component name="ProjectId" id="2cOxfH3LTTkxOxqJzDmb1nWjhiS" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -41,13 +42,17 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.Client.executor": "Run",
+    "Application.ConcurrencyAndParallelism.Callable.Client.executor": "Run",
     "Application.ConcurrencyAndParallelism.PrintNumbers.Client.executor": "Run",
+    "Application.ConcurrencyAndParallelism.ProducerConsumerSemaphore.Client.executor": "Run",
+    "Application.ConcurrencyAndParallelism.Semaphores.Client.executor": "Run",
+    "Application.ConcurrencyAndParallelism.Synchronization.Client.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Personal/JavaProjects/ConcurrentLearning/pom.xml",
+    "last_opened_file_path": "C:/Personal/JavaProjects/ConcurrentLearning/src/main/java/ConcurrencyAndParallelism/ProducerConsumerSemaphore",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -58,13 +63,19 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ConcurrencyAndParallelism.PrintNumbers.Client">
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ConcurrencyAndParallelism.IntroToThread.Client" />
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Personal\JavaProjects\ConcurrentLearning\src\main\java\ConcurrencyAndParallelism\ProducerConsumerSemaphore" />
+      <recent name="C:\Personal\JavaProjects\ConcurrentLearning\src\main\java\ConcurrencyAndParallelism" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ConcurrencyAndParallelism.ProducerConsumerSemaphore.Client">
+    <configuration name="ConcurrencyAndParallelism.Callable.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ConcurrencyAndParallelism.Callable.Client" />
       <module name="ConcurrentLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ConcurrencyAndParallelism.IntroToThread.*" />
+          <option name="PATTERN" value="ConcurrencyAndParallelism.Callable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,10 +96,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ConcurrencyAndParallelism.ProducerConsumerSemaphore.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ConcurrencyAndParallelism.ProducerConsumerSemaphore.Client" />
+      <module name="ConcurrentLearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ConcurrencyAndParallelism.ProducerConsumerSemaphore.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConcurrencyAndParallelism.ProducerConsumer.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ConcurrencyAndParallelism.ProducerConsumer.Client" />
+      <module name="ConcurrentLearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ConcurrencyAndParallelism.ProducerConsumer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConcurrencyAndParallelism.Synchronization.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ConcurrencyAndParallelism.Synchronization.Client" />
+      <module name="ConcurrentLearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ConcurrencyAndParallelism.Synchronization.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConcurrencyAndParallelism.ProducerConsumerSemaphore.Client" />
+        <item itemvalue="Application.ConcurrencyAndParallelism.ProducerConsumer.Client" />
+        <item itemvalue="Application.ConcurrencyAndParallelism.Synchronization.Client" />
+        <item itemvalue="Application.ConcurrencyAndParallelism.Callable.Client" />
         <item itemvalue="Application.ConcurrencyAndParallelism.PrintNumbers.Client" />
-        <item itemvalue="Application.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -110,6 +163,9 @@
       <workItem from="1707996529331" duration="383000" />
       <workItem from="1707996921841" duration="283000" />
       <workItem from="1707997239422" duration="5379000" />
+      <workItem from="1708008887231" duration="3256000" />
+      <workItem from="1708090598236" duration="4665000" />
+      <workItem from="1708163262632" duration="3557000" />
     </task>
     <task id="LOCAL-00001" summary="adding new file client">
       <option name="closed" value="true" />
@@ -151,7 +207,23 @@
       <option name="project" value="LOCAL" />
       <updated>1708003093546</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="adding thread concepts">
+      <option name="closed" value="true" />
+      <created>1708017789268</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1708017789268</updated>
+    </task>
+    <task id="LOCAL-00007" summary="adding synchronization">
+      <option name="closed" value="true" />
+      <created>1708101768882</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1708101768884</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,7 +244,8 @@
     <MESSAGE value="adding new file client" />
     <MESSAGE value="updating Client.java" />
     <MESSAGE value="adding thread concepts" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding thread concepts" />
+    <MESSAGE value="adding synchronization" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding synchronization" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
